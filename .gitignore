@@ -1,0 +1,15 @@
+# Secrets / local config — never commit
+.env
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Local runtime data (SQLite DB contains chat ids / open ids)
+data/
+*.db
+
+# OS
+.DS_Store
